@@ -4,7 +4,7 @@ password=""
 url=""
 db=""
 uri=""
-db_local="aquassist-test"
+db_local=""
 
 # Delete local database
 isDbExists=$(mongo localhost:27017 --eval 'db.getMongo().getDBNames().indexOf("'$db_local'")' --quiet)
